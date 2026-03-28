@@ -151,6 +151,7 @@ pip install pyrogram
 pip install tgcrypto
 pip install pillow
 pip install psutil
+pip install matplotlib
 ```
 - Or Install All Packages One by One:
 ```python
@@ -210,12 +211,18 @@ notepad config.py
 ```
 ### Copy this code👇 and rename this file as bot.py then save
 
+-<a href="https://github.com/Donovandonz/Telegram--Cloud-Storage-Bot/blob/main/bot.py">bot.py</a>
 
+In this code find:
+- Enter your user ID where it says OWNER_ID = "" (remove the quotes and paste the number)
 
+- Enter your bot token from BotFather where it says BOT_TOKEN = ""
 
-
-
-
+- After saving the config file, you're ready to run your bot with:
+```python
+py bot.py
+```
+---
 
 ### 📱 Testing Your Bot
 - Open Telegram
@@ -237,6 +244,42 @@ notepad config.py
 
 # 🎉 Congratulations!
 You've successfully set up a Telegram cloud storage bot! Your bot can now store and share files through Telegram.
+
+---
+
+# Setup to Auto-run your cloud bot storage everytime you're log on PC/Laptop
+
+*** Step 1: In CMD 
+```python
+notepad config.py
+```
+*** Save this file code👇
+-<a href="https://github.com/Donovandonz/Telegram--Cloud-Storage-Bot/blob/main/start_bot_silent.vbs">start_bot_silent.vbs</a>
+
+Go-to:
+- Task Scheduler (recommended, works plugged in or on battery)
+- This is the most reliable way. Windows will auto-start the bot every time you log in, and restart it if it crashes.
+
+- Press Win + R, type taskschd.msc, press Enter
+- Click Create Basic Task on the right
+- Name it CloudStorageBot, click Next
+- Trigger: When I log on, click Next
+- Action: Start a program, click Next
+- Program: browse to your python.exe (usually C:\Users\YourName\AppData\Local\Programs\Python\Python3xx\python.exe)
+- Arguments: bot.py
+- Start in: C:\Projects\SimpleStorageBot (your bot folder path)
+- Finish → right-click the task → Properties → check Run whether user is logged on or not if you want it to run even on lock screen
+
+---
+
+# IMPORTANT NOTE
+- Save your all files (.env, bot.py etc in the folder) to your own backup drive.
+- Because when you buy a new PC/Laptop your gonna need this file to paste on your new device.
+- Just follow the first step guide installation Python, C++ installation provide.
+- Then just paste the files to your new file folder and run the bot cloud storage like usuall.
+- That's all have a nice day and have your own cloud storage bot safe in your own hands!
+- BYE ! 👋
+
 
 
 
