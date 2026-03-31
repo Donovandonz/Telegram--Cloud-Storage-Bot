@@ -167,6 +167,7 @@ notepad config.py
 ```
 *** Add your bot token from BotFather
 - eg: You'll need to fill in these values (look for lines like these):
+-<a href="https://github.com/Donovandonz/Telegram--Cloud-Storage-Bot/blob/main/env">.env</a>
 ```python
 API_ID = ""           # Leave blank or get from my.telegram.org
 API_HASH = ""         # Leave blank or get from my.telegram.org
