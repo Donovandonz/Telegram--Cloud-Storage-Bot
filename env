@@ -1,8 +1,0 @@
-# ─────────────────────────────────────────────
-# Telegram Bot Credentials
-# Get these from https://my.telegram.org/apps
-# ─────────────────────────────────────────────
-
-BOT_TOKEN=YOUR_BOT_TOKEN
-APP_ID=YOUR_APP_ID
-API_HASH=YOUR_API_HASH
