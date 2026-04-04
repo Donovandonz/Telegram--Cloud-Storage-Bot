@@ -17,31 +17,61 @@ Upload any file – photos, videos, audio, documents – and manage them with an
 
 ---
 
+<img width="917" height="717" alt="Screenshot 2026-04-04 124850" src="https://github.com/user-attachments/assets/1552110b-7a1b-4cb2-a0b7-61978abea148" />
+
+
 ## ✨ Features
 
 ### 📤 Uploading
 - Send any file (photo, video, audio, document) directly to the bot.  
 - Files are stored on **Telegram's cloud** – no storage on your device.
 
+---
+
+<img width="667" height="1901" alt="FireShot Capture 004 - MyCloudStorage-Bot -  web telegram org" src="https://github.com/user-attachments/assets/09278b11-d48d-44d3-ba47-8c50be9d487f" />
+
+
 ### 🖼️ Gallery View
 - Browse all files in a clean 10‑item grid.  
 - Sort by **date**, **name**, or **size**.  
 - Numbered pagination for easy navigation.
 
+---
+
+<img width="916" height="517" alt="Screenshot 2026-04-04 125936" src="https://github.com/user-attachments/assets/6bea9ad1-466e-42e7-8a24-37da5994b1cc" />
+
+
 ### 📂 Categories
 - Files are automatically grouped by type: Images, Videos, Audio, Documents, Archives, Code, etc.  
 - Each category has its own paginated view with file previews.
 
+---
+
+<img width="930" height="747" alt="Screenshot 2026-04-04 130118" src="https://github.com/user-attachments/assets/cc66794a-0eed-4a72-9f9e-d3439c39de20" />
+
+
 ### 🔍 Search
 - Find files by filename or keyword.
+
+---
+
+<img width="960" height="807" alt="Screenshot 2026-04-04 130449" src="https://github.com/user-attachments/assets/7c2aa492-e10b-4d6a-9ee4-fd4ae5870a11" />
+
 
 ### ⭐ Favourites
 - Mark any file as favourite.  
 - Quick access to all starred files.
 
+---
+
+<img width="937" height="671" alt="Screenshot 2026-04-04 130832" src="https://github.com/user-attachments/assets/1252a849-7a3a-4c87-93c7-c760cfe4aa8e" />
+
+
 ### 🔁 Duplicate Manager
 - Detects duplicate files by **content** (SHA‑256 hash for files ≤10 MB) or **name**.  
 - For each duplicate group you can **keep the newest** or **keep the oldest** copy.
+
+---
 
 ### 🔘 File Actions (tap 👁️ View on any file)
 | Action | Description |
@@ -55,6 +85,11 @@ Upload any file – photos, videos, audio, documents – and manage them with an
 | **Delete** | Move the file to the recycle bin. |
 | **Bulk Delete** | Select multiple files (by category or all) and move them to the recycle bin in one go. |
 
+---
+
+<img width="947" height="670" alt="Screenshot 2026-04-04 130921" src="https://github.com/user-attachments/assets/ca81ec2a-09af-4f87-995a-e1c4d72c53f8" />
+
+
 ### ♻️ Recycle Bin
 - Deleted files stay in the bin for **30 days**, then are automatically purged.  
 - **Restore** any file back to main storage.  
@@ -63,11 +98,21 @@ Upload any file – photos, videos, audio, documents – and manage them with an
 - **Bulk Restore** – checkbox‑select multiple files and restore them together.  
 - **Select All** button per page for easy bulk operations.
 
+---
+
+<img width="921" height="362" alt="Screenshot 2026-04-04 131022" src="https://github.com/user-attachments/assets/60d2a4bb-f618-4cdd-b87d-69899ebbfaf9" />
+
+
 ### 🛡️ Security
 - **Private bot** – only the owner (your Telegram user ID) can interact.  
 - **Malicious file detection** – blocks dangerous extensions and suspicious filename patterns.  
 - **Expiring links** – control how long shared links remain active.  
 - **/cleanup** command – removes orphaned records (files missing Telegram file IDs).
+
+---
+
+<img width="937" height="822" alt="Screenshot 2026-04-04 131202" src="https://github.com/user-attachments/assets/ddf7227e-483f-4cc3-aefb-f79a73002842" />
+
 
 ### 📊 Statistics
 - Shows total active files, cloud size, favourites count, tagged files, duplicate copies.  
